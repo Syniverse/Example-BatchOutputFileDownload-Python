@@ -1,6 +1,8 @@
 
 # a simple flask bot that can understand ESS messages from the Syniverse Developer Community and
 # check whether it is a job complete notification from the Batch Automation system and downloads the output file.
+# Written for Python 2.7
+# depends on the flask and requests packages
 
 from flask import Flask
 from flask import request, json
